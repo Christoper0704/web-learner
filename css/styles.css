@@ -1,0 +1,26 @@
+/***Tag Selector***/
+body {
+  background-color: #ffa372;
+}
+h1 {
+  color: #30475e;
+  letter-spacing: 3px;
+}
+h3 {
+  color: #0f4c81;
+}
+hr {
+  border-style: none;
+  border-top: 5px dotted grey;
+  width: 5%;
+}
+a:hover {
+  color: gold;
+}
+/***Class Selector***/
+.profilePic {
+  height:75%;
+}
+.circular {
+  border-radius: 100%;
+}
