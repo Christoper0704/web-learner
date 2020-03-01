@@ -83,6 +83,7 @@ hr {
   line-height: 2;
 }
 .btn {
+  margin: 35px auto;
 	box-shadow:inset 0 1px 0 0 #cf866c;
 	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
 	background-color:#d0451b;
