@@ -1,26 +1,132 @@
-/***Tag Selector***/
 body {
-  background-color: #ffa372;
+  margin: 0;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  color: #232020;
+  font-size: 1rem;
 }
 h1 {
-  color: #30475e;
-  letter-spacing: 3px;
+  margin: 50px auto 0 auto;
+  font-family: "Caveat", fantasy;
+  color: #3282b8;
+  font-size: 5.625rem;
+}
+h2 {
+  font-family: "Spartan", sans-serif;
+  color: #0f4c75;
+  font-size: 2.5rem;
 }
 h3 {
-  color: #0f4c81;
+  margin: 0 auto;
+  font-family: "Spartan", sans-serif;
+  color: #0f4c75;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 hr {
   border-style: none;
   border-top: 5px dotted grey;
   width: 5%;
 }
-a:hover {
-  color: gold;
+.top-container {
+  background-color: #bbe1fa;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
 }
-/***Class Selector***/
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
+}
+.pro {
+  text-decoration: underline;
+}
+.middle-container {
+  margin: 100px auto;
+}
+.profile {
+  margin: 100px auto;
+  width: 50%;
+}
 .profilePic {
-  height:75%;
+  width: 200px;
+  height: 200px;
 }
-.circular {
+.skills {
+  margin: 100px auto;
+}
+.skill-row {
+  margin: 50px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+}
+.skillPic {
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
+}
+.browserImg {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+.gamepadImg {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
+.contact-me {
+  margin: 100px auto;
+  width: 50%;
+  line-height: 2;
+}
+.btn {
+	box-shadow:inset 0 1px 0 0 #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family: "Spartan", sans-serif;
+	font-size:16px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #7cacde;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container {
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0f4c75;
+}
+.footer-link {
+  color: #3282b8;
+  margin: 10px 25px;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.footer-link:hover {
+  color: #bbe1fa;
+}
+.copyright {
+  color: #bbe1fa;
+  font-size: 0.75rem;
+  margin: 25px auto;
 }
